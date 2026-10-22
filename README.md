@@ -13,15 +13,36 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
 <p align="center">
+  <a href="#-tech-introduction-film">Tech Film</a> •
   <a href="#-interface-gallery">Screenshots</a> •
+  <a href="#-how-stremio-tv-relates-to-stremio">Stremio Architecture</a> •
   <a href="#-key-features">Key Features</a> •
   <a href="#-production-deployment">Deploy to Production</a> •
-  <a href="#-letterboxd-integration">Letterboxd Sync</a> •
-  <a href="#-stremio-addon-pipeline">Addon Protocol</a> •
   <a href="#-contributing">Contributing</a>
 </p>
 
 </div>
+
+---
+
+## 🎬 Tech Introduction Film
+
+An Apple Keynote-style architectural product film detailing the decentralized Stremio protocol, Cupertino frosted glass aesthetics, and the Letterboxd cinephile bridge:
+
+https://github.com/user-attachments/assets/stremio-tv-intro
+
+> 📽️ **High-Line Tech Video**: [`docs/stremio-tv-intro.mp4`](docs/stremio-tv-intro.mp4) *(1080p HD • 60fps • Narrated Architectural Walkthrough • 71s)*
+
+---
+
+## 🧩 How Stremio tv Relates to Stremio
+
+Stremio is not just an application — it is an **open, decentralized protocol specification**.
+
+1. **Protocol Decoupling:** The official Stremio desktop client is just one implementation. Stremio tv is an independent, production-grade Next.js 15 client communicating with Stremio's open manifest endpoints (`/manifest.json`, `/catalog`, `/stream`).
+2. **Multi-Addon Swarm:** Rather than querying a central server, Stremio tv aggregates streams across **Torrentio**, **RealDebrid**, **Cyberflix**, **Comet**, **Annatar**, and **Cinemeta** in parallel.
+3. **Hardware Engine Passthrough (Port 11470):** When Stremio desktop runs locally, Stremio tv connects to its background daemon (`127.0.0.1:11470`) for VideoToolbox hardware acceleration and RFC 7233 range-request streaming. When running standalone in the cloud, it falls back to native in-browser HLS/MP4 streams.
+4. **The Missing Cinephile Layer:** Official Stremio lacks Letterboxd integration. Stremio tv bridges the Stremboxd protocol to synchronize live Letterboxd watchlists and allow 1-click star rating diary logs directly from title cards.
 
 ---
 
