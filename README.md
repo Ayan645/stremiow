@@ -25,13 +25,19 @@
 
 ---
 
-## 🎬 Tech Introduction Film
+## 🎬 High-Line Tech Reel & Film
 
-An Apple Keynote-style architectural product film detailing the decentralized Stremio protocol, Cupertino frosted glass aesthetics, and the Letterboxd cinephile bridge:
+### ⚡ 15s High-Line Tech Reel (Tactile SFX Edition)
+An Instagram Reel / TikTok style 15-second teaser featuring kinetic neon data conduit animations, decentralized swarm orbs racing into the hardware engine daemon (:11470), Cupertino frosted glass UI convergence, and the iconic logo lid snap — engineered with pure tactile ASMR sound design (zero voiceover):
 
-https://github.com/user-attachments/assets/stremio-tv-intro
+> 📱 **9:16 Vertical Instagram Reel**: [`docs/stremio-tv-reel.mp4`](docs/stremio-tv-reel.mp4) *(1080x1920 • 60fps • 15.0s • Tactile ASMR SFX)*  
+> 🖥️ **16:9 Widescreen Edition**: [`docs/stremio-tv-reel-16x9.mp4`](docs/stremio-tv-reel-16x9.mp4) *(1920x1080 • 60fps • 15.0s)*
 
-> 📽️ **High-Line Tech Video**: [`docs/stremio-tv-intro.mp4`](docs/stremio-tv-intro.mp4) *(1080p HD • 60fps • Narrated Architectural Walkthrough • 71s)*
+### 🎙️ 71s Architectural Product Film
+An Apple Keynote-style architectural walkthrough detailing the decentralized Stremio protocol, Cupertino frosted glass aesthetics, and the Letterboxd cinephile bridge:
+
+> 📽️ **Architectural Film**: [`docs/stremio-tv-intro.mp4`](docs/stremio-tv-intro.mp4) *(1080p HD • 60fps • 71s • Narrated Walkthrough)*
+
 
 ---
 
