@@ -35,6 +35,12 @@
 
 <br/>
 
+### Top 10 Leaderboard & Letterboxd Cinephile Row
+![Top 10 Today and Popular on Letterboxd](docs/screenshots/preview-letterboxd.png)
+*Apple TV metallic Top 10 numerals, IMDb ratings, and synced Letterboxd cinephile rails.*
+
+<br/>
+
 ### Title Overview & Episode Selection
 ![Title Overview and Episode Selection](docs/screenshots/preview-detail.png)
 *Detailed synopses, cast credits, season/episode cards with video previews, and frosted capsule actions.*
@@ -47,7 +53,7 @@
 
 <br/>
 
-### Sleek Apple TV Minimalist Video Player
+### Sleek Apple TV Minimalist Video Player & Stream Drawer
 ![Minimalist Video Player](docs/screenshots/preview-player.png)
 *Clean white progress scrubber, live stream resolution switcher (Torrentio, RealDebrid, Cyberflix), subtitles picker, and in-player Letterboxd logger.*
 
