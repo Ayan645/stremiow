@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  stremio-tv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: stremio-tv
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "-", "http://localhost:3000/api/proxy?url=https://v3-cinemeta.strem.io/manifest.json"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

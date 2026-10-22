@@ -1,12 +1,33 @@
 {
-  "name": "stremiow",
-  "version": "0.1.0",
-  "private": true,
+  "name": "stremio-tv",
+  "version": "1.0.0",
+  "description": "Curated, open-source Apple TV-inspired web interface for the decentralized Stremio addon ecosystem with Letterboxd cinephile sync.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ayan645/stremiow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ayan645/stremiow/issues"
+  },
+  "homepage": "https://github.com/Ayan645/stremiow#readme",
+  "keywords": [
+    "stremio",
+    "apple-tv",
+    "letterboxd",
+    "cinephile",
+    "streaming",
+    "decentralized",
+    "addon-protocol",
+    "hls",
+    "open-source"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:qa": "node tests/qa-runner.mjs"
   },
   "dependencies": {
     "dexie": "^4.4.6",
